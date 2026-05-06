@@ -35,7 +35,7 @@ mv ./path_to_new_report/new_report.html index.html
 npm install staticrypt
 
 # Encrypt the report
-staticrypt test.html -p <long-password>
+npx staticrypt index.html -p <long-password>
 
 # Replace the unencrypted with the encrypted report
 # staticrypt dumps the encrypted report into the folder ./encrypted; 
