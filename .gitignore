@@ -1,2 +1,3 @@
 encrypted/
+node_modules/
 .staticrypt.json
